@@ -20,4 +20,3 @@ console.log("Mango\nCherries\nKiwi\nGrapes\nPear\nPeach\nOragne\nlemon\n");
 var fruit = "Mango/Cherries/Kiwi/Grapes/Pear/Peach/Oragne/lemon";
 
 document.write(fruit.replace(new RegExp('/', 'g'), ' '));
-
